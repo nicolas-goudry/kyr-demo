@@ -1,0 +1,455 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "ffmpeg@latest": {
+      "last_modified": "2026-05-26T09:13:58Z",
+      "resolved": "github:NixOS/nixpkgs/f44f7788c891fbe5542177df78374f8cdab10e8f#ffmpeg",
+      "source": "devbox-search",
+      "version": "8.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/ngfvm0mvlcl3qy4c0va1xk7ik7hf5z5d-ffmpeg-8.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/7i34r2xda7qh2y9jsnm8jxgh31d1nk57-ffmpeg-8.1-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/wl1lb6gb6isnglzmwvdn55hi48ac1mcl-ffmpeg-8.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/svw1lk5s6hgfvmndi7klg9kp9p65h4wi-ffmpeg-8.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/arhfvajz4160hqrvllcjri0zlshyl43m-ffmpeg-8.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/f8f02xn2j8qjcii07ig0x3jwcd1qd7r9-ffmpeg-8.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/rz9xhl5q5v9gh7lhk6z8zgi98h9xzx7n-ffmpeg-8.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/ngfvm0mvlcl3qy4c0va1xk7ik7hf5z5d-ffmpeg-8.1-bin"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/9189pnq5pjzsbqmp9l8rkr9kwbwmg2w6-ffmpeg-8.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/mk17rxwak2j48qrs3axccsknhzwl5733-ffmpeg-8.1-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/wdrpm09qjhb155kwch9b19pag9wagpkz-ffmpeg-8.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/fgjpgi3vfl2ayqfmddfq45wzp5q09q9s-ffmpeg-8.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/amsa6czh5400dxq2giif31vlnbcjp09z-ffmpeg-8.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/8anck5absahqjvikpxb87yn1inpb4fdv-ffmpeg-8.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/x57wbkqyx80h7lhdziqh7ikwg8lgraxc-ffmpeg-8.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/9189pnq5pjzsbqmp9l8rkr9kwbwmg2w6-ffmpeg-8.1-bin"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/qjil0v0y05rcrs2bzyijwyb90d5zfbzw-ffmpeg-8.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/481y1x104ril85y1fdvpf55yk6r9n732-ffmpeg-8.1-man",
+              "default": true
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/hrvdbg19nsdh94rzvgxcvvkkq6rkph2k-ffmpeg-8.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/8r42iwc8pcz420gjczzgmgy86kn8wc39-ffmpeg-8.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/mwn24al75gjgm42nck1bckmplv2zdz8h-ffmpeg-8.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/7vy887l5yhwaisic91xj6rdp7m7vd8jm-ffmpeg-8.1-lib"
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/his8zz9p0mc0azz3rwjyknydn0d67n6s-ffmpeg-8.1"
+            }
+          ],
+          "store_path": "/nix/store/qjil0v0y05rcrs2bzyijwyb90d5zfbzw-ffmpeg-8.1-bin"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "bin",
+              "path": "/nix/store/281zx8sanx5fcp8j6advwics7gwdvdaz-ffmpeg-8.1-bin",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/dnnz7b0444c6pb6q8rippk90sl0pnz1n-ffmpeg-8.1-man",
+              "default": true
+            },
+            {
+              "name": "out",
+              "path": "/nix/store/84h52wlvlvb2y7hmm6338m7i4m1mpi0v-ffmpeg-8.1"
+            },
+            {
+              "name": "data",
+              "path": "/nix/store/pxxjhd9y7z2anp67bp6j4002r9bnwizf-ffmpeg-8.1-data"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/7rv05vh6qh1sfiirhjkfjp2gskqhxdp9-ffmpeg-8.1-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/m0k08lknppyyk6dh58157i835da3qnxx-ffmpeg-8.1-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/xvrjmskfrp07gmh1zzlyfkv50nw40dcv-ffmpeg-8.1-lib"
+            }
+          ],
+          "store_path": "/nix/store/281zx8sanx5fcp8j6advwics7gwdvdaz-ffmpeg-8.1-bin"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-05-27T10:28:13Z",
+      "resolved": "github:NixOS/nixpkgs/4100e830e085863741bc69b156ec4ccd53ab5be0?lastModified=1779877693&narHash=sha256-NOF9NAREhxr50bbBfVcVOq%2BArCMSoe8dP79Pk2uyARk%3D"
+    },
+    "glibcLocales@latest": {
+      "last_modified": "2026-05-21T08:15:18Z",
+      "resolved": "github:NixOS/nixpkgs/4a29d733e8a7d5b824c3d8c958a946a9867b3eb2#glibcLocales",
+      "source": "devbox-search",
+      "version": "2.42-61",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dlq1phn9xxacdc7pqfi7n4yn6b2npz6g-glibc-locales-2.42-61",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dlq1phn9xxacdc7pqfi7n4yn6b2npz6g-glibc-locales-2.42-61"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/78i8xfh6bdkcnzc1bs3fpj7dbgvxxa4h-glibc-locales-2.42-61",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/78i8xfh6bdkcnzc1bs3fpj7dbgvxxa4h-glibc-locales-2.42-61"
+        }
+      }
+    },
+    "nodejs@24.12.0": {
+      "last_modified": "2025-12-29T16:45:58Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/346dd96ad74dc4457a9db9de4f4f57dab2e5731d#nodejs_24",
+      "source": "devbox-search",
+      "version": "24.12.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b1h0af3yb3z9jz048phclcqw6ihiww67-nodejs-24.12.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ksn4nj0nbp0ikmh4scy9x4biqqdswwhy-nodejs-24.12.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/3x72bm7l30ib7l7cximrp0sklcq8jqwy-nodejs-24.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/b1h0af3yb3z9jz048phclcqw6ihiww67-nodejs-24.12.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9jfsyhcr9c6rpm94lrkibv75jkggvwss-nodejs-24.12.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/7izhv9x1yvsmyrhmmyps6bxjjclajm80-nodejs-24.12.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/8hl74pnc1qyz68rg10ixw7fz32hcxqkk-nodejs-24.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/9jfsyhcr9c6rpm94lrkibv75jkggvwss-nodejs-24.12.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cj1243xswxvnwgifyiyg8axhn0r2vl48-nodejs-24.12.0",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/kzia3rkaf9vwpn3py23q9v49jpjm6zx7-nodejs-24.12.0-dev"
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/xszji81xj7ghjhz7jk0jkhb84nfwyd8f-nodejs-24.12.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/cj1243xswxvnwgifyiyg8axhn0r2vl48-nodejs-24.12.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/9z1v3wyrxp6fpyzw21lcakd5w7aknzyc-nodejs-24.12.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/5yvx909wlis13qd2y1ahwl7ij21ma69a-nodejs-24.12.0-libv8"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/7ll99p08gmpg0n048669p80zjibl5akr-nodejs-24.12.0-dev"
+            }
+          ],
+          "store_path": "/nix/store/9z1v3wyrxp6fpyzw21lcakd5w7aknzyc-nodejs-24.12.0"
+        }
+      }
+    },
+    "postgresql@17": {
+      "last_modified": "2026-05-27T10:28:13Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/4100e830e085863741bc69b156ec4ccd53ab5be0#postgresql",
+      "source": "devbox-search",
+      "version": "17.10",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k5mjkij9d9fcikm1pshcads63fsyf08r-postgresql-17.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/fbqgpjlxp8kjlln7f2rqlidz86dq1dxj-postgresql-17.10-man",
+              "default": true
+            },
+            {
+              "name": "jit",
+              "path": "/nix/store/jvvc8129hqsxvwxdvhgz8jhsajbyci9s-postgresql-17.10-jit"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/chrd4xzfvh20skzq21p5q96cm1hwsr91-postgresql-17.10-lib"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/y2yfqp710f5ggzj972wvdw27c4465g9b-postgresql-17.10-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/rbd7809q978mm98d2ah6q06hh1fak4g3-postgresql-17.10-doc"
+            },
+            {
+              "name": "plperl",
+              "path": "/nix/store/jfdxbynhcf8a69s2b9k2sm0yicdy9chb-postgresql-17.10-plperl"
+            },
+            {
+              "name": "plpython3",
+              "path": "/nix/store/x8kr0c530y07ml1f2k2q1h70j2bi5ndm-postgresql-17.10-plpython3"
+            },
+            {
+              "name": "pltcl",
+              "path": "/nix/store/xnqihgavm8j2p3bxrhx21v0cr4w4bvyq-postgresql-17.10-pltcl"
+            }
+          ],
+          "store_path": "/nix/store/k5mjkij9d9fcikm1pshcads63fsyf08r-postgresql-17.10"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cyh24i9352vrbk53nx4lvq1m98ff8aii-postgresql-17.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/954b3d8ksbv0s2jh3p4a0i9jfcj4f1j3-postgresql-17.10-man",
+              "default": true
+            },
+            {
+              "name": "plperl",
+              "path": "/nix/store/qrwc6i1vnfhl95dy5hq9172429yf0i4w-postgresql-17.10-plperl"
+            },
+            {
+              "name": "plpython3",
+              "path": "/nix/store/xzhgi5yphr8awiw5ji2nmqdzqxdjshqx-postgresql-17.10-plpython3"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/dbbqlaba1d5db0l4a5xlgzvkk16bb1ql-postgresql-17.10-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ckkjpnmpd0lgs28bhq76ffbknkbw0r2l-postgresql-17.10-dev"
+            },
+            {
+              "name": "jit",
+              "path": "/nix/store/08a4srs7r0mskz9qnzd00h5h00008v4q-postgresql-17.10-jit"
+            },
+            {
+              "name": "pltcl",
+              "path": "/nix/store/3xqvyngzy2hxckg1q4d6sbn7grj8kmnm-postgresql-17.10-pltcl"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/srbnmzjyc6fq3bp33lxv7185d85g44bg-postgresql-17.10-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/bs4ds2zwwfjnp2bz2nqpbm3jc1xw2f76-postgresql-17.10-lib"
+            }
+          ],
+          "store_path": "/nix/store/cyh24i9352vrbk53nx4lvq1m98ff8aii-postgresql-17.10"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2d6cqkal090xcmk7vpkvh24sl3infbby-postgresql-17.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/rg1kk7km61j8z1j6wbz3cv76zdccijp0-postgresql-17.10-man",
+              "default": true
+            },
+            {
+              "name": "plpython3",
+              "path": "/nix/store/7bli73px1dfsfy1fwsxs30yxq17kvaxs-postgresql-17.10-plpython3"
+            },
+            {
+              "name": "pltcl",
+              "path": "/nix/store/s0flr58ascaiv0mlvwfgq2gmpzgy277a-postgresql-17.10-pltcl"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/s3fshal7dhhmbcsm336fghkq6bzd70lq-postgresql-17.10-lib"
+            },
+            {
+              "name": "plperl",
+              "path": "/nix/store/rbdah6bn3zm84inf5b5aqyshvri7d7lz-postgresql-17.10-plperl"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/3f6llql2ck6q7gnnyz0ysrrwkv2gghky-postgresql-17.10-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/1235f75980ib2z42isq8w00css1n4f66-postgresql-17.10-doc"
+            },
+            {
+              "name": "jit",
+              "path": "/nix/store/sax9v31mpzjxngi20jwfhy32hn1d1anm-postgresql-17.10-jit"
+            }
+          ],
+          "store_path": "/nix/store/2d6cqkal090xcmk7vpkvh24sl3infbby-postgresql-17.10"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8zm2sma9jgvq101yy4x45za4y28yd164-postgresql-17.10",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/csjq4w1qavdihdq7hywbr0cdf2rzpfz9-postgresql-17.10-man",
+              "default": true
+            },
+            {
+              "name": "plperl",
+              "path": "/nix/store/h98zq6zgf63dwix04cp93c0m3wk29acy-postgresql-17.10-plperl"
+            },
+            {
+              "name": "plpython3",
+              "path": "/nix/store/wy8i0s38mq87j1cbq69i950rb26z7pz1-postgresql-17.10-plpython3"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/c8wad1x0pmvysnfkz5d9rcpb872qc2j7-postgresql-17.10-doc"
+            },
+            {
+              "name": "pltcl",
+              "path": "/nix/store/dd2j50hn9p1capz9kqcbj1773v4agpfj-postgresql-17.10-pltcl"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/lfgkjigmsr1pyyyf42d5ilnc003bjxn7-postgresql-17.10-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/2y8a47fzhkibnfy5lzrv16ylj5rn2pj7-postgresql-17.10-dev"
+            },
+            {
+              "name": "jit",
+              "path": "/nix/store/phskfynzln3q5qhc1m0i2g7n585129yn-postgresql-17.10-jit"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/h0mwgi47x8cmwyfqgbi3spsyr8hwidn0-postgresql-17.10-lib"
+            }
+          ],
+          "store_path": "/nix/store/8zm2sma9jgvq101yy4x45za4y28yd164-postgresql-17.10"
+        }
+      }
+    }
+  }
+}

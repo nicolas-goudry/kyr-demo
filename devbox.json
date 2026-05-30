@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
+  "packages": [
+    "ffmpeg@latest",
+    "nodejs@24.12.0",
+    "postgresql@17"
+  ],
+  "env": {
+    "PGUSER": "admin",
+    "PGPASSWORD": "",
+    "PGDATABASE": "kyr"
+  },
+  "shell": {
+    "init_hook": [
+      "test -f .devbox/virtenv/postgresql/data/postgresql.conf || initdb"
+    ],
+    "scripts": {
+      "start": "node index.js",
+      "test": [
+        "echo \"Error: no test specified\" && exit 1"
+      ]
+    }
+  }
+}
