@@ -7,8 +7,10 @@ import { promisify } from "node:util";
 
 const nodeMajor = process.versions.node.split(".").map(Number)[0];
 if (nodeMajor < 24) {
-  console.error(`Unsupported Node.js version runtime. Node.js version 24 or more is required (current is Node.js ${nodeMajor}).`)
-  process.exit(1)
+  console.error(
+    `Unsupported Node.js version runtime. Node.js version 24 or more is required (current is Node.js ${nodeMajor}).`,
+  );
+  process.exit(1);
 }
 
 const fastify = Fastify({ logger: true });
@@ -47,20 +49,20 @@ fastify.get("/health", async (request, reply) => {
 /*
  * Lists all stored analysis records
  */
-fastify.get('/analyses', async (request, reply) => {
+fastify.get("/analyses", async (request, reply) => {
   try {
-    const query = 'SELECT * FROM media_metadata ORDER BY created_at DESC;';
+    const query = "SELECT * FROM media_metadata ORDER BY created_at DESC;";
     const result = await pool.query(query);
 
     return reply.code(200).send({
       count: result.rowCount,
-      data: result.rows
+      data: result.rows,
     });
   } catch (error) {
-    request.log.error('Failed to retrieve analyses', error);
+    request.log.error("Failed to retrieve analyses", error);
 
     return reply.code(500).send({
-      error: 'Failed to retrieve analyses from the database.'
+      error: "Failed to retrieve analyses from the database.",
     });
   }
 });

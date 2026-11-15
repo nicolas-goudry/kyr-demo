@@ -1,8 +1,3 @@
-SELECT 'CREATE DATABASE "kyr-demo"'
-WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'kyr-demo')\gexec
-
-\c "kyr-demo"
-
 CREATE TABLE IF NOT EXISTS media_metadata (
   id SERIAL PRIMARY KEY,
   file_path TEXT NOT NULL,
